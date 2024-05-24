@@ -12,7 +12,6 @@ let prevBtn = document.querySelector("#prevBtn");
 let nextBtn = document.querySelector("#nextBtn");
 let countPage = 1;
 let currentPage = 1;
-
 //!-------------CREATE---------------
 btnAdd.addEventListener("click", () => {
   if (
