@@ -6,4 +6,4 @@ document.addEventListener("DOMContentLoaded", function () {
     searchValue = e.target.value;
     readFood();
   });
-
+});
