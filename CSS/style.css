@@ -1,3 +1,7 @@
+
+* {
+  margin: 0;
+}
 header {
   background-color: white;
   padding: 10px 0;
@@ -73,3 +77,78 @@ h1 {
 .search-container button:hover {
   background-color: #ffe0b2;
 }
+.foodSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.card-text {
+  font-size: 13px;
+  color: gray;
+}
+.cardBook {
+  border: none !important;
+}
+.btnDelete,
+.btnEdit,
+.btnDetail {
+  color: #ffa500 !important;
+  background-color: #fff !important;
+  border: 1px solid #ffa500 !important;
+  border-radius: 15px !important;
+  padding: 5px 10px !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnDelete:hover,
+.btnEdit:hover,
+.btnDetail:hover {
+  background-color: #ffa500 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btnDelete,
+.btnEdit {
+  margin-right: 5px;
+}
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .page-link {
+  color: #ffa500 !important;
+}
+
+.pagination .page-link:hover {
+  background-color: #ffa500 !important;
+  color: #fff !important;
+}
+#accordionFlushExample .accordion-button {
+  background-color: #ffc107;
+  color: #fff;
+  border-color: #ffc107;
+}
+
+#accordionFlushExample .accordion-button:hover {
+  background-color: #ff9800;
+  border-color: #ff9800;
+}
+
+#accordionFlushExample .form-control {
+  border-color: #ffc107;
+}
+
+#accordionFlushExample .btn-outline-primary {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+#accordionFlushExample .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
