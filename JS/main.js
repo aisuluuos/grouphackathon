@@ -191,4 +191,12 @@ document.addEventListener("click", (e) => {
         console.error("Ошибка при загрузке детальной информации:", error);
       });
   }
+=======
+const searchInput = document.getElementById("search-input");
+//!--------------------SEARCH-------------------------
+document.addEventListener("DOMContentLoaded", function () {
+  searchInput.addEventListener("input", function (e) {
+    searchValue = e.target.value;
+    readFood();
+  });
 });
