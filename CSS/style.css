@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+}
+header {
+  background-color: white;
+  padding: 10px 0;
+}
+* {
+  margin: 0;
+}
+.footer {
+  background-color: #ff6600;
+  padding-bottom: 50px;
+}
+.footerInfo {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.footerInfo h5 {
+  color: white;
+  font-weight: 500;
+  font-family: Nunito Sans;
+  font-size: 17px;
+  padding-bottom: 7px;
+}
+.contactLogo img {
+  padding-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+.footerInfo a {
+  color: rgb(180, 180, 180);
+  font-size: 15px;
+}
+.footerInfo h3 a {
+  color: white;
+}
+.footerInfo a:hover {
+  color: white;
+}
+.foodSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.card-text {
+  font-size: 13px;
+  color: gray;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+h1 {
+  font-weight: 900;
+  font-family: Varela Round;
+  font-size: large;
+  padding-top: 12px;
+}
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.nav-links li {
+  display: inline;
+  padding-top: 15px;
+}
+
+.nav-links a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.nav-links a:hover {
+  color: orangered;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: beige;
+  border-color: beige;
+}
+.search-container input:hover {
+  border-color: #ff6600;
+  color: #ff6600;
+}
+.search-container button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #ffe0b2;
+}
+.foodSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.card-text {
+  font-size: 13px;
+  color: gray;
+}
+.cardBook {
+  border: none !important;
+}
+.btnDelete,
+.btnEdit,
+.btnDetail {
+  color: #ffa500 !important;
+  background-color: #fff !important;
+  border: 1px solid #ffa500 !important;
+  border-radius: 15px !important;
+  padding: 5px 10px !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btnDelete:hover,
+.btnEdit:hover,
+.btnDetail:hover {
+  background-color: #ffa500 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btnDelete,
+.btnEdit {
+  margin-right: 5px;
+}
+.pagination {
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .page-link {
+  color: #ffa500 !important;
+}
+
+.pagination .page-link:hover {
+  background-color: #ffa500 !important;
+  color: #fff !important;
+}
+#accordionFlushExample .accordion-button {
+  background-color: #ffc107;
+  color: #fff;
+  border-color: #ffc107;
+}
+
+#accordionFlushExample .accordion-button:hover {
+  background-color: #ff9800;
+  border-color: #ff9800;
+}
+
+#accordionFlushExample .form-control {
+  border-color: #ffc107;
+}
+
+#accordionFlushExample .btn-outline-primary {
+  color: #ffc107;
+  border-color: #ffc107;
+}
+
+#accordionFlushExample .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links li {
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    display: block;
+  }
+
+  .search-container {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #search-input {
+    width: 80%;
+  }
+
+  #search-button {
+    width: 18%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 40px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  #search-input,
+  #search-button {
+    font-size: 12px;
+  }
+}
