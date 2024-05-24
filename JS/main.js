@@ -12,6 +12,13 @@ let prevBtn = document.querySelector("#prevBtn");
 let nextBtn = document.querySelector("#nextBtn");
 let countPage = 1;
 let currentPage = 1;
+//!--------------------SEARCH-------------------------
+document.addEventListener("DOMContentLoaded", function () {
+  searchInput.addEventListener("input", function (e) {
+    searchValue = e.target.value;
+    readFood();
+  });
+});
 //!-------------CREATE---------------
 btnAdd.addEventListener("click", () => {
   if (
@@ -191,11 +198,3 @@ document.addEventListener("click", (e) => {
         console.error("Ошибка при загрузке детальной информации:", error);
       });
   }
-const searchInput = document.getElementById("search-input");
-//!--------------------SEARCH-------------------------
-document.addEventListener("DOMContentLoaded", function () {
-  searchInput.addEventListener("input", function (e) {
-    searchValue = e.target.value;
-    readFood();
-  });
-});
