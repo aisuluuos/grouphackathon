@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+.foodSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.card-text {
+  font-size: 13px;
+  color: gray;
+}
